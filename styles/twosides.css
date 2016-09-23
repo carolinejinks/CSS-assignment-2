@@ -18,59 +18,61 @@ header {
 h1 {
   float: left;
   color: #fff;
-  padding-left: 60px;
+  padding-left: 30px;
   margin-bottom: 0px;
+}
+
+h2 {
+  margin: 0;
+  padding: 10px 0;
 }
 
 section {
   margin: 0px;
-  padding-bottom: 175px;
+  overflow: auto;
+  width: 100%;
 }
 
-h2 {
-  text-align: center;
-  padding-bottom: 10px;
-  margin: 0;
-}
-
-section > p {
-    text-align: center;
-}
-
-img {
-    display: block;
-    margin: auto;
-}
 
 #cougar {
-    padding-top: 160px;
     background: #FFD5AE;
-    clear: both;
+    padding-top: 160px;
+    padding-bottom: 50px;
 }
 
 #lion {
-    padding-top: 160px;
     background: #B26219;
+    padding-top: 160px;
+    padding-bottom: 50px;
 }
 
 #tiger {
-    padding-top: 160px;
     background: #FFBD82;
+    padding-top: 160px;
+    padding-bottom: 50px;
+}
+
+div {
+    float: left;
+    width: 30%;
+    clear: both;
+    margin-left: 50px;
 }
 
 article {
     width: 600px;
-    background: #fff;
-    margin: auto;
-    padding: 20px;
+    padding: 30px 50px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    float: right;
+    width: 50%;
 }
 
 footer {
-  padding: 10px;
+  padding: .5em 1em;
   text-align: center;
+  clear: both;
 }
 
 /* ----- suggested colors -----
@@ -91,6 +93,7 @@ footer {
 
 
 /* --- links and nav --- */
+
 
 nav {
   float: right;
